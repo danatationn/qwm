@@ -1,0 +1,8 @@
+/*			*/
+//	Glock
+/*			*/
+
+brightmap sprite GLCKA0 {map "sprites/sweps/2/glock/brightmaps/GLCKA0.png" DisableFullBright}
+brightmap sprite GLCKB0 {map "sprites/sweps/2/glock/brightmaps/GLCKB0.png" DisableFullBright}
+brightmap sprite GLCKC0 {map "sprites/sweps/2/glock/brightmaps/GLCKC0.png" DisableFullBright}
+brightmap sprite GLCKF0 {map "sprites/sweps/2/glock/brightmaps/GLCKF0.png" DisableFullBright}

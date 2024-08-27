@@ -1,0 +1,28 @@
+//	Glock
+qwm/sweps/glock01 = "/sounds/sweps/2/glock/glock_01.mp3"
+qwm/sweps/glock02 = "/sounds/sweps/2/glock/glock_02.mp3"
+qwm/sweps/glockdist = "/sounds/sweps/2/glock/glock_dist.mp3"
+
+qwm/sweps/glockraise = "/sounds/sweps/2/glock/glock_raise.mp3"
+qwm/sweps/glocklower = "/sounds/sweps/2/glock/glock_lower.mp3"
+
+qwm/sweps/glockclick01 = "/sounds/sweps/2/glock/glock_element_click_01.mp3"
+qwm/sweps/glockclick02 = "/sounds/sweps/2/glock/glock_element_click_02.mp3"
+
+qwm/sweps/glocksliderelease = "/sounds/sweps/2/glock/glock_sliderelease.mp3"
+qwm/sweps/glockslideback = "/sounds/sweps/2/glock/glock_slideback.mp3"
+
+qwm/sweps/glockclipout = "/sounds/sweps/2/glock/glock_clipout.mp3"
+qwm/sweps/glockclipin = "/sounds/sweps/2/glock/glock_clipin.mp3"
+
+$random qwm/sweps/glockfire {
+	qwm/sweps/glock01
+	qwm/sweps/glock02
+}
+
+$attenuation qwm/sweps/glockdist 0.5
+
+$random qwm/sweps/glockclick {
+	qwm/sweps/glockclick01
+	qwm/sweps/glockclick02
+}

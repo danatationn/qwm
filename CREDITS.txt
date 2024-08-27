@@ -1,0 +1,5 @@
+Valve - All sounds ripped from "Counter Strike 2" unless noted
+JoeyTD, Minigunner - Original Glock 18 sprites
+id Software, Nightdive Studios - Extended SSG sprites
+
+Aseprite, GIMP - For editing sprites
