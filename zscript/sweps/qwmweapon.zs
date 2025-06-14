@@ -61,6 +61,9 @@ class qwmWeapon : DoomWeapon {
 	action void Q_GiveInventory(class<Inventory> itemtype, int amount = 0, int giveto = AAPTR_DEFAULT) {
 		/*	currently useless	*/
 		
+		if (amount == 0) return;
+		if (amount < 0) amount = 0;
+		
 		A_GiveInventory(itemtype, amount, giveto);
 	}
 
